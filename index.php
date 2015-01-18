@@ -16,8 +16,8 @@
     <link rel="dns-prefetch" href="//google-analytics.com">
     <link rel="author" href="https://plus.google.com/+ErickSahara?rel=author"/>
     <!-- home screen iphone/ipad -->
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="img/icon-iphone.png">
     <link rel="apple-touch-icon" sizes="76x76" href="img/icon-ipad.png">
     <link rel="apple-touch-icon" sizes="120x120" href="img/icon-iphone-retina.png">
