@@ -335,11 +335,11 @@
                     <p class="columns large-12">
                         <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Sua mensagem..."></textarea>
                     </p>
-                    <p class="columns large-8">
+                    <p class="columns large-8 small-l-6">
                        <span id="msg-obr" class="msg-obr">
                        </span>
                    </p>
-                   <p class="columns large-4 text-right float-right">
+                   <p class="columns large-4 small-l-6 text-right float-right">
                     <input type="submit" value="Enviar" class="btn-enviar" id="btn-enviar" />
                 </p>
             </form>
