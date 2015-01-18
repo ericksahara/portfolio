@@ -1,0 +1,29 @@
+/* Fonts
+========================================================================== */
+$font:       'Open Sans', sans-serif;
+$font-title: 'News Cycle', sans-serif;
+
+/* Colors
+========================================================================== */
+$grey-50:  #eceff1;
+$grey-100: #cfd8dc;
+$grey-200: #b0bec5;
+$grey-300: #90a4ae;
+$grey-400: #78909c;
+$grey-500: #607d8b;
+$grey-600: #546e7a;
+$grey-700: #455a64;
+$grey-800: #37474f;
+$grey-900: #263238;
+$green:    #40D47E;
+$blue:     #3498DB;
+
+/* Breakpoints
+========================================================================== */
+$mobile:   "only screen and (max-width:640px)";
+$mobile-p: "only screen and (max-width:640px) and (orientation: portrait)";
+$mobile-l: "only screen and (max-width:640px) and (orientation: landscape)";
+$tablet:   "only screen and (min-width:641px) and (max-width:1024px)";
+$tablet-p: "only screen and (min-width:641px) and (max-width:1024px) and (orientation: portrait)";
+$tablet-l: "only screen and (min-width:641px) and (max-width:1024px) and (orientation: landscape)";
+$desktop:  "only screen and (min-width:1025px)";

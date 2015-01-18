@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "authors": [
+    "Erick Sahara <erickmsk8@hotmail.com>"
+  ],
+  "description": "Erick Sahara - Portfolio",
+  "license": "MIT",
+  "devDependencies": {
+    "fancybox": "~2.1.5",
+    "jquery": "~2.1.3",
+    "isotope": "~2.1.0"
+  }
+}
