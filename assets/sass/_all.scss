@@ -58,7 +58,7 @@ html {
     margin: 0px auto;
 
     &__bg {
-        background-image: inline-image('bg-home.min.png');
+        background-image: image-url('bg-home.min.png');
         background-position: 50% 50%;
         width: 100%;
         height: 100%;
