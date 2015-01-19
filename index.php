@@ -10,7 +10,11 @@
     <meta property="og:title" content="Desenvolvedor Front-end & UI Designer Freelancer - Erick Sahara">
     <meta property="og:description" content="Bem vindos ao meu portfólio! Tem um novo projeto? Vamos trocar ideias!"/> <!--max 200 char -->
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Erick Sahara">
+    <meta property="og:site_name" content="Erick Sahara - Portfólio">
+    <meta property="og:image" content="http://ericksahara.com/img/icon-iphone-retina.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="120">
+    <meta property="og:image:height" content="120">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
     <link rel="dns-prefetch" href="//google-analytics.com">
