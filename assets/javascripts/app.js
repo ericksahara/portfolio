@@ -171,10 +171,31 @@ $(function() {
 
     }());
 
+    var loadFonts = (function() {
+
+         var fonts = {
+             fontAwesome: "<link href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' rel='stylesheet'>",
+             google: "<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300%7cNews+Cycle:700' rel='stylesheet'>"
+         };
+
+         function init() {
+            setTimeout(function(){
+             $('head').append($(fonts.fontAwesome), $(fonts.google));
+            },1000)
+         };
+
+         return {
+             init: init
+         };
+
+    }());
+
+
     main.setHeight();
     isotope.init();
     scrollTo.init();
     btnMenuMobile.init();
+    loadFonts.init();
 
     $(window).on('scroll', function() {
         menuActive.init();

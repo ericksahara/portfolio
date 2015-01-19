@@ -26,8 +26,8 @@
     <link rel="apple-touch-icon" sizes="76x76" href="img/icon-ipad.png">
     <link rel="apple-touch-icon" sizes="120x120" href="img/icon-iphone-retina.png">
     <link rel="apple-touch-icon" sizes="152x152" href="img/icon-ipad-retina.png">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300%7cNews+Cycle:700' rel='stylesheet' type='text/css'>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300%7cNews+Cycle:700' rel='stylesheet' type='text/css'> -->
+    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
