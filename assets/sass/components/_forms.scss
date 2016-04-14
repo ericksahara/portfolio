@@ -1,0 +1,53 @@
+.input {
+	@include transition(all 0.3s);
+	@include border-radius(0);
+	width: 100%;
+	font-size: 14px;
+	border: none;
+	padding: 15px 0;
+	border-bottom: solid 1px rgba(#000, 0.4);
+	color: #333;
+	background-color: transparent;
+	outline: none;
+
+	&:focus {
+		border-color: #333;
+	}
+
+	&.ng-invalid.ng-dirty {
+		border-color: #E8534F !important;
+	}
+
+	&.ng-valid.ng-dirty {
+		border-color: #44D08C !important;
+	}
+
+}
+
+.textarea {
+	margin: 15px 0;
+	@include transition(all 0.3s);
+	@include border-radius(0);
+	width: 100%;
+	height: 200px;
+	font-size: 14px;
+	padding: 10px;
+	border: solid 1px rgba(#000, 0.4);
+	resize: none;
+	color: #333;
+	background-color: transparent;
+	outline: none;
+
+	&:focus {
+		border-color: #333;
+	}
+
+	&.ng-invalid.ng-dirty {
+		border-color: #E8534F !important;
+	}
+
+	&.ng-valid.ng-dirty {
+		border-color: #44D08C !important;
+	}
+
+}

@@ -1,0 +1,88 @@
+.btn-float {
+	@include transition(all 0.25s ease-out);
+	@include size(55px);
+	@include border-radius(50%);
+	@include box-shadow(0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23))
+	display: inline-block;
+	border: none;
+	outline: none;
+	color: #FFF;
+	position: relative;
+	z-index: 1;
+	line-height: 37px;
+	padding: 0px;
+	cursor: pointer;
+	vertical-align: middle;
+
+	&.btn-accent {
+		background: $brand-accent;
+
+		&:hover, &:focus {
+			background: lighten($brand-accent, 10%);
+		}
+
+	}
+
+	&.btn-primary {
+		background: $brand-primary;
+
+		&:hover, &:focus {
+			background: lighten($brand-primary, 10%);
+		}
+
+	}
+
+	&.btn-whatsapp {
+		background: #25D366;
+
+		&:hover, &:focus {
+			background: lighten(#25D366, 10%);
+		}
+
+	}
+
+	> svg {
+		@include size(100%);
+		padding: 18px;
+		fill: #FFF;
+	}
+}
+
+.btn {
+	white-space: nowrap;
+	@include transition(all 0.25s ease-out);
+	background: transparent;
+	border: solid 2px;
+	padding: 15px;
+	font-weight: bold;
+	font-size: 14px;
+	outline: none;
+
+	&.is-disabled {
+		opacity: 0.5;
+		pointer-events: none;
+	}
+
+	&.btn-primary {
+		border-color: $brand-primary;
+		color: $brand-primary;
+
+		&:hover, &:focus {
+			background: $brand-primary;
+			color: #FFF;
+		}
+
+	}
+
+	&.btn-accent {
+		border-color: $brand-accent;
+		color: $brand-accent;
+
+		&:hover, &:focus {
+			background: $brand-accent;
+			color: #FFF;
+		}
+
+	}
+
+}

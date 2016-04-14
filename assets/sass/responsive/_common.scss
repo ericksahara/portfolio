@@ -1,0 +1,92 @@
+@include mq(medium) {
+
+	.main {
+		width: 240px;
+	}
+
+	.wrapper-content {
+		padding-left: 240px;
+	}
+
+}
+
+@include mq(small) {
+
+	.h2 {
+		font-size: 24px;
+	}
+
+	.h4 {
+		font-size: 18px;
+	}
+
+	.header {
+		padding: 15px 15px 30px 15px;
+	}
+
+	.main {
+		@include transform(translateX(-100%));
+	}
+
+	.wrapper-content {
+		padding-left: 0;
+	}
+
+	.section-default {
+		padding: 10px 15px 20px 15px;
+	}
+
+	.section-primary {
+		padding: 10px 15px 20px 15px;
+	}
+
+	.section-secondary {
+		padding: 10px 15px 20px 15px;
+	}
+
+	.experience {
+
+		&-list {
+			margin-bottom: 0;
+
+			&-item {
+				padding-bottom: 30px;
+
+				&-content {
+					padding-left: 100px;
+				}
+
+				&-circle {
+
+					@include size(80px);
+					line-height: 80px;
+					font-size: 11px;
+
+					&:after {
+						top: 80px;
+						left: 40px;
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+	.row-skills {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.skills {
+
+		&-item {
+			margin-left: -15px;
+			margin-right: -15px;
+		}
+
+	}
+
+}

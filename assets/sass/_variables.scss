@@ -1,29 +1,53 @@
-/* Fonts
-========================================================================== */
-$font:       'Open Sans', sans-serif;
-$font-title: 'News Cycle', sans-serif;
+//
+// Colors brand
+//
 
-/* Colors
-========================================================================== */
-$grey-50:  #eceff1;
-$grey-100: #cfd8dc;
-$grey-200: #b0bec5;
-$grey-300: #90a4ae;
-$grey-400: #78909c;
-$grey-500: #607d8b;
-$grey-600: #546e7a;
-$grey-700: #455a64;
-$grey-800: #37474f;
-$grey-900: #263238;
-$green:    #40D47E;
-$blue:     #3498DB;
+$brand-primary: #2196F3 !default;
+$brand-success: #44D08C	!default;
+$brand-danger: #E8534F	!default;
+$brand-accent: #FFC107	!default;
 
-/* Breakpoints
-========================================================================== */
-$mobile:   "only screen and (max-width:640px)";
-$mobile-p: "only screen and (max-width:640px) and (orientation: portrait)";
-$mobile-l: "only screen and (max-width:640px) and (orientation: landscape)";
-$tablet:   "only screen and (min-width:641px) and (max-width:1024px)";
-$tablet-p: "only screen and (min-width:641px) and (max-width:1024px) and (orientation: portrait)";
-$tablet-l: "only screen and (min-width:641px) and (max-width:1024px) and (orientation: landscape)";
-$desktop:  "only screen and (min-width:1025px)";
+//
+// Grid
+//
+
+$row-width: 1024px !default;
+$number-of-columns: 12 !default;
+
+//
+// Breakpoints
+//
+
+$breakpoints:(
+    small:    "screen and (max-width: 767px)",
+    small-p:  "screen and (max-width:767px) and (orientation: portrait)",
+    small-l:  "screen and (max-width:767px) and (orientation: landscape)",
+    medium:   "screen and (min-width:768px) and (max-width:1024px)",
+    medium-p: "screen and (min-width:768px) and (max-width:1024px) and (orientation: portrait)",
+    medium-l: "screen and (min-width:768px) and (max-width:1024px) and (orientation: landscape)",
+    large:    "screen and (min-width:1025px)"
+);
+
+//
+//  Typography
+//
+
+$font-size-base:          16px !default;
+
+$font-size-h1:            26px !default;
+$font-size-h2:            28px !default;
+$font-size-h3:            22px !default;
+$font-size-h4:            20px !default;
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default;
+
+$line-height-base:        1.428571429 !default; // 20/14
+$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
+
+$headings-font-family:    inherit !default;
+$headings-font-weight:    300 !default;
+$headings-line-height:    1.1 !default;
+$headings-color:          #333c4e !default;
+
+$text-color: #333 !default;
+$text-font-weight: 300 !default;
