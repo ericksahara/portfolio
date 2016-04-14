@@ -2,9 +2,9 @@
 require_once 'phpmailer/class.phpmailer.php';
 $params = json_decode(file_get_contents('php://input'),true);
 
-$nome = $params['name'];
+$name = $params['name'];
 $email = $params['email'];
-$mensagem = $params['message'];
+$message = $params['message'];
 
 $html = "<html>";
 $html .= "<body>";
@@ -29,9 +29,9 @@ $mail->FromName = $nome;
 $mail->IsSendmail();
 
 if (!$mail->Send()) {
-	echo '<div class="response-contact response-contact-success">Thank you, Your message has been sent successfully!</div>';
-} else {
 	echo '<div class="response-contact response-contact-error">There was an error sending your message, please try again.</div>';
+} else {
+	echo '<div class="response-contact response-contact-success">Thank you, Your message has been sent successfully!</div>';
 }
 
 ?>
