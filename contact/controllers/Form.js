@@ -10,7 +10,7 @@
 				method: 'POST',
 				'url': 'post-contact.php',
 				data: {
-					nome: _this.name,
+					name: _this.name,
 					email: _this.email,
 					message: _this.message
 				}

@@ -743,7 +743,7 @@ function(a){a.end()})}}var d=[];b&&d.push(b.start());r&&d.push(r.start());c.all(
 				method: 'POST',
 				'url': 'post-contact.php',
 				data: {
-					nome: _this.name,
+					name: _this.name,
 					email: _this.email,
 					message: _this.message
 				}
