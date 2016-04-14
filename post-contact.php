@@ -9,7 +9,7 @@ $message = $params['message'];
 $html = "<html>";
 $html .= "<body>";
 $html .= "<table>";
-$html .= "<tr><td>Name:</td><td>" . $nome . "</td></tr>";
+$html .= "<tr><td>Name:</td><td>" . $name . "</td></tr>";
 $html .= "<tr><td>Email:</td><td>" . $email . "</td></tr>";
 $html .= "<tr><td>Message:</td><td>" . $message . "</td></tr>";
 $html .= "</table>";
@@ -24,7 +24,7 @@ $mail->AddAddress('ericksahara@gmail.com');
 $mail->IsMail(true);
 $mail->IsHTML(true);
 $mail->From = $email;
-$mail->FromName = $nome;
+$mail->FromName = $name;
 
 $mail->IsSendmail();
 
