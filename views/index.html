@@ -5,8 +5,9 @@
 				<div class="experience-list-item-circle" aria-label="period">{{experience.period}}</div>
 				<div class="experience-list-item-content">
 					<h4 class="h4 text-primary">{{experience.title}}</h4>
-					<p ng-bind="experience.subtitle">{{experience.subtitle}}</p>
+					<p>{{experience.subtitle}}</p>
 					<p class="text-secondary" ng-bind-html="experience.description | toHTML"></p>
+					<p class="text-secondary experience-list-item-print hide">{{experience.period}}</p>
 				</div>
 			</li>
 

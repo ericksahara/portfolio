@@ -7,8 +7,12 @@
 		font-family: Arial, Helvetica, sans-serif;
 	}
 
-	.main, svg, .experience-list-item-circle, .btn-contact, .navbar, .footer, .hide-for-print {
+	.main, svg, .experience-list-item-circle, .btn-contact, .navbar, .footer, .hide-for-print, {
 		display: none !important;
+	}
+
+	.experience-list-item-print {
+		display: block !important;
 	}
 
 	p {
