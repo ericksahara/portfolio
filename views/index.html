@@ -46,7 +46,7 @@
 			<li class="degree-list-item" ng-repeat="educationItems in education">
 				<h4 class="h4 text-primary">{{educationItems.title}}</h4>
 				<p>{{educationItems.subtitle}}</p>
-				<p class="text-small">{{educationItems.description}}</p>
+				<p class="text-secondary" ng-bind-html="educationItems.description | toHTML" ></p>
 			</li>
 		</ul>
 	</section>

@@ -24,7 +24,7 @@
 			title: 'Front-end developer & Web Designer',
 			subtitle: 'Xess Serviços de Informática LTDA',
 			period: '2012 - 2013',
-			description: 'Web designer for a digital agency. Clients include <a class="link" href="https://www.coral.com.br" target="_blank">Tintas Coral</a> and <a class="link" href="http://www.faap.br/" target="_blank">FAAP</a>. I was responsible for improve and fix their projects. I also made creative banners using tools such as Photoshop and Illustrator.'
+			description: 'Web designer for a digital agency. Clients include <a class="link" href="https://www.coral.com.br" target="_blank">Tintas Coral</a> and <a class="link" href="http://www.faap.br/" target="_blank">FAAP</a>. I was responsible for improving and fixing their projects. I also made creative banners using tools such as Photoshop and Illustrator.'
 
 		},
 		{
