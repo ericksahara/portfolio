@@ -431,6 +431,11 @@ a {
 			&-content {
 				padding-top: 2px;
 				padding-left: 160px;
+
+				> .text-secondary {
+					line-height: 1.6;
+				}
+				
 			}
 
 		}

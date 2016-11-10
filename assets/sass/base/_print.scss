@@ -67,6 +67,7 @@
 			margin: 0;
 
 			&-item {
+				page-break-inside: avoid;
 				padding-bottom: 10px;
 
 				&-content {
@@ -105,6 +106,10 @@
 			font-size: 12px;
 		}
 
+	}
+	
+	.degree-list-item {
+		page-break-inside: avoid;
 	}
 
 	.degree-list-item:before {

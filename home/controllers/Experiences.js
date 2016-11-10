@@ -7,19 +7,26 @@
 
 	var experiences = [
 		{
-			title: 'Freelance Front-end developer',
-			subtitle: 'Freelancer',
+			title: 'Front-end developer & UX Designer',
+			subtitle: 'Treinaweb',
 			period: '2013 - present',
+			description: 'Working on a responsive web redesign for <a class="link" href="https://www.treinaweb.com.br/" target="_blank">Treinaweb</a>. Over these years, I have been creating sketches, wireframes, mockups and improving usability issues through techniques such as heatmapping and eyetracking. Also responsible for implementing visual and interactive elements as Front-end developer.'
+		},
+		{
+			title: 'UX Designer',
+			subtitle: 'Kei - Espaço de Arte',
+			period: '2016',
+			description: 'Stakeholder interview, Personas, sitemap, wireframes, mockups and web development. <a class="link hide-for-print" href="http://keiarte.com.br/" target="_blank">See the project.</a>'
+		},
+
+		{
+			title: 'Front-end developer',
+			subtitle: 'Freelance',
+			period: '2013 - 2015',
 			description: 'Front-end development for clients such as <a class="link" href="http://www.sapientnitro.com.br/" target="_blank">SapientNitro</a>, <a class="link" href="http://www.institutotomieohtake.org.br/" target="_blank">Instituto Tomie Ohtake</a> and <a class="link" href="https://www.queroquitar.com.br/" target="_blank">QueroQuitar</a>.'
 
 		},
-		{
-			title: 'Front-end developer & UI Designer',
-			subtitle: 'Treinaweb',
-			period: '2013 - present',
-			description: 'Front-End Development, mockups and wireframes. <a class="link hide-for-print" href="http://treinaweb.com.br/" target="_blank">See the project.</a>'
-
-		},
+		
 		{
 			title: 'Front-end developer & Web Designer',
 			subtitle: 'Xess Serviços de Informática LTDA',

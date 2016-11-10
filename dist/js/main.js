@@ -556,9 +556,14 @@ return e}}}else return d(a)}}]}])})(window,window.angular);
 
 	var educationItems = [
 		{
-			title: 'Member of Interaction Design Foundation',
+			title: 'Human-Computer Interaction',
 			subtitle: 'Interaction Design Foundation',
-			description: 'User experience and interaction design skills, focusing on user research and user-centred design. Course certificates: <a class="link" href="https://www.interaction-design.org/erick-sahara/certificate/course/MxKVGnVJX?r=erick-sahara" target="_blank">Become a UX Designer from scratch</a>'
+			description: 'Deep understanding of the human behind the term "user" and the ingredients of a great user experience. <a class="link hide-for-print" href="https://www.interaction-design.org/erick-sahara/certificate/course/MxKVGnVJX?r=erick-sahara" target="_blank">View certificate</a>'
+		},
+		{
+			title: 'Become a UX designer from scratch',
+			subtitle: 'Interaction Design Foundation',
+			description: 'User experience and interaction design skills, focusing on user research and user-centred design. <a class="link hide-for-print" href="https://www.interaction-design.org/erick-sahara/certificate/course/MxKVGnVJX?r=erick-sahara" target="_blank">View certificate</a>'
 		},
 		{
 			title: 'Degree in Internet Systems Development',
@@ -583,19 +588,26 @@ return e}}}else return d(a)}}]}])})(window,window.angular);
 
 	var experiences = [
 		{
-			title: 'Freelance Front-end developer',
-			subtitle: 'Freelancer',
+			title: 'Front-end developer & UX Designer',
+			subtitle: 'Treinaweb',
 			period: '2013 - present',
+			description: 'Working on a responsive web redesign for <a class="link" href="https://www.treinaweb.com.br/" target="_blank">Treinaweb</a>. Over these years, I have been creating sketches, wireframes, mockups and improving usability issues through techniques such as heatmapping and eyetracking. Also responsible for implementing visual and interactive elements as Front-end developer.'
+		},
+		{
+			title: 'UX Designer',
+			subtitle: 'Kei - Espaço de Arte',
+			period: '2016',
+			description: 'Stakeholder interview, Personas, sitemap, wireframes, mockups and web development. <a class="link hide-for-print" href="http://keiarte.com.br/" target="_blank">See the project.</a>'
+		},
+
+		{
+			title: 'Front-end developer',
+			subtitle: 'Freelance',
+			period: '2013 - 2015',
 			description: 'Front-end development for clients such as <a class="link" href="http://www.sapientnitro.com.br/" target="_blank">SapientNitro</a>, <a class="link" href="http://www.institutotomieohtake.org.br/" target="_blank">Instituto Tomie Ohtake</a> and <a class="link" href="https://www.queroquitar.com.br/" target="_blank">QueroQuitar</a>.'
 
 		},
-		{
-			title: 'Front-end developer & UI Designer',
-			subtitle: 'Treinaweb',
-			period: '2013 - present',
-			description: 'Front-End Development, mockups and wireframes. <a class="link hide-for-print" href="http://treinaweb.com.br/" target="_blank">See the project.</a>'
-
-		},
+		
 		{
 			title: 'Front-end developer & Web Designer',
 			subtitle: 'Xess Serviços de Informática LTDA',
@@ -655,6 +667,36 @@ return e}}}else return d(a)}}]}])})(window,window.angular);
 
 	var skills = [
 	{
+		title: 'Personas',
+		level: 'Intermediate',
+		levelBar: 60,
+		category: 'discovery'
+	},
+	{
+		title: 'User Journey',
+		level: 'Basic',
+		levelBar: 40,
+		category: 'discovery'
+	},
+	{
+		title: 'Surveys',
+		level: 'Basic',
+		levelBar: 40,
+		category: 'discovery'
+	},
+	{
+		title: 'Google Analytics',
+		level: 'Intermediate',
+		levelBar: 50,
+		category: 'discovery'
+	},
+	{
+		title: 'Competitor Research',
+		level: 'Intermediate',
+		levelBar: 60,
+		category: 'discovery'
+	},
+	{
 		title: 'HTML5 & CSS3',
 		level: 'Advanced',
 		levelBar: 92,
@@ -667,7 +709,7 @@ return e}}}else return d(a)}}]}])})(window,window.angular);
 		category: 'dev'
 	},
 	{
-		title: 'Sass & Less',
+		title: 'CSS pre-processors (Sass & LESS)',
 		level: 'Advanced',
 		levelBar: 80,
 		category: 'dev'
@@ -679,21 +721,9 @@ return e}}}else return d(a)}}]}])})(window,window.angular);
 		category: 'dev'
 	},
 	{
-		title: 'Responsive Design',
-		level: 'Advanced',
-		levelBar: 88,
-		category: 'dev'
-	},
-	{
 		title: 'Bootstrap framework',
 		level: 'Advanced',
 		levelBar: 85,
-		category: 'dev'
-	},
-	{
-		title: 'Foundation framework',
-		level: 'Advanced',
-		levelBar: 80,
 		category: 'dev'
 	},
 	{
@@ -703,16 +733,53 @@ return e}}}else return d(a)}}]}])})(window,window.angular);
 		category: 'dev'
 	},
 	{
-		title: 'Git',
+		title: 'Version control (Git)',
 		level: 'Intermediate',
 		levelBar: 50,
 		category: 'dev'
 	},
 	{
-		title: 'Gulp & Grunt',
+		title: 'Task runners (Gulp & Grunt)',
 		level: 'Intermediate',
 		levelBar: 45,
 		category: 'dev'
+	},
+	{
+		title: 'Performance and optimization ',
+		level: 'Intermediate',
+		levelBar: 55,
+		category: 'dev'
+	},
+	
+	{
+		title: 'Wireframes, prototypes and mockups',
+		level: 'Advanced',
+		levelBar: 84,
+		category: 'design'
+	},
+	{
+		title: 'Responsive design',
+		level: 'Advanced',
+		levelBar: 92,
+		category: 'design'
+	},
+	{
+		title: 'Styleguides',
+		level: 'Intermediate',
+		levelBar: 68,
+		category: 'design'
+	},
+	{
+		title: 'Material design',
+		level: 'Intermediate',
+		levelBar: 75,
+		category: 'design'
+	},
+	{
+		title: 'Sitemaps',
+		level: 'Advanced',
+		levelBar: 85,
+		category: 'design'
 	},
 	{
 		title: 'Fireworks',
@@ -720,10 +787,11 @@ return e}}}else return d(a)}}]}])})(window,window.angular);
 		levelBar: 80,
 		category: 'design'
 	},
+
 	{
 		title: 'Axure Pro',
 		level: 'Intermediate',
-		levelBar: 65,
+		levelBar: 75,
 		category: 'design'
 	},
 	{
@@ -737,6 +805,30 @@ return e}}}else return d(a)}}]}])})(window,window.angular);
 		level: 'Intermediate',
 		levelBar: 60,
 		category: 'design'
+	},
+	{
+		title: 'A/B Testing',
+		level: 'Intermediate',
+		levelBar: 60,
+		category: 'test'
+	},
+	{
+		title: 'Heuristic Evaluation',
+		level: 'Intermediate',
+		levelBar: 60,
+		category: 'test'
+	},
+	{
+		title: 'Usability testing',
+		level: 'Intermediate',
+		levelBar: 60,
+		category: 'test'
+	},
+	{
+		title: 'Google Analytics',
+		level: 'Intermediate',
+		levelBar: 60,
+		category: 'test'
 	}
 	]
 

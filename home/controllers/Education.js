@@ -7,9 +7,14 @@
 
 	var educationItems = [
 		{
-			title: 'Member of Interaction Design Foundation',
+			title: 'Human-Computer Interaction',
 			subtitle: 'Interaction Design Foundation',
-			description: 'User experience and interaction design skills, focusing on user research and user-centred design. Course certificates: <a class="link" href="https://www.interaction-design.org/erick-sahara/certificate/course/MxKVGnVJX?r=erick-sahara" target="_blank">Become a UX Designer from scratch</a>'
+			description: 'Deep understanding of the human behind the term "user" and the ingredients of a great user experience. <a class="link hide-for-print" href="https://www.interaction-design.org/erick-sahara/certificate/course/MxKVGnVJX?r=erick-sahara" target="_blank">View certificate</a>'
+		},
+		{
+			title: 'Become a UX designer from scratch',
+			subtitle: 'Interaction Design Foundation',
+			description: 'User experience and interaction design skills, focusing on user research and user-centred design. <a class="link hide-for-print" href="https://www.interaction-design.org/erick-sahara/certificate/course/MxKVGnVJX?r=erick-sahara" target="_blank">View certificate</a>'
 		},
 		{
 			title: 'Degree in Internet Systems Development',

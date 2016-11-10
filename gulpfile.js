@@ -81,7 +81,7 @@ gulp.task('concat', function() {
 gulp.task('watch', ['sass', 'browser-sync'], function () {
 	gulp.watch(["assets/sass/**/*.scss"], ['sass']);
 	gulp.watch("*.php", ['bs-reload']);
-	gulp.watch("**/*.js", ['concat', 'uglify']);
+	// gulp.watch("**/*.js", ['concat', 'uglify']);
 });
 
 
