@@ -561,6 +561,11 @@ return e}}}else return d(a)}}]}])})(window,window.angular);
 			description: 'Deep understanding of the human behind the term "user" and the ingredients of a great user experience. <a class="link hide-for-print" href="https://www.interaction-design.org/erick-sahara/certificate/course/MHHsTJGrs" target="_blank">View certificate</a>'
 		},
 		{
+			title: 'Web Design for Usability',
+			subtitle: 'Interaction Design Foundation',
+			description: 'Understand the principles of user-centred design and how it improves usability. <a class="link hide-for-print" href="https://www.interaction-design.org/erick-sahara/certificate/course/MJS5k6wcl" target="_blank">View certificate</a>'
+		},
+		{
 			title: 'Become a UX designer from scratch',
 			subtitle: 'Interaction Design Foundation',
 			description: 'User experience and interaction design skills, focusing on user research and user-centred design. <a class="link hide-for-print" href="https://www.interaction-design.org/erick-sahara/certificate/course/MxKVGnVJX?r=erick-sahara" target="_blank">View certificate</a>'
@@ -591,7 +596,7 @@ return e}}}else return d(a)}}]}])})(window,window.angular);
 			title: 'Front-end developer & UX Designer',
 			subtitle: 'Treinaweb',
 			period: '2013 - present',
-			description: 'Working on a responsive web redesign for <a class="link" href="https://www.treinaweb.com.br/" target="_blank">Treinaweb</a>. Over these years, I have been creating sketches, wireframes, mockups and improving usability issues through techniques such as heatmapping and eyetracking. Also responsible for implementing visual and interactive elements as Front-end developer.'
+			description: 'Working on a responsive web redesign for <a class="link" href="https://www.treinaweb.com.br/" target="_blank">Treinaweb</a>. Over these years, I have been creating sketches, wireframes, mockups and improving usability issues through techniques such as heatmapping. Also responsible for implementing visual and interactive elements as Front-end developer.'
 		},
 		{
 			title: 'UX Designer',

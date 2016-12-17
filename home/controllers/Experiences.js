@@ -10,7 +10,7 @@
 			title: 'Front-end developer & UX Designer',
 			subtitle: 'Treinaweb',
 			period: '2013 - present',
-			description: 'Working on a responsive web redesign for <a class="link" href="https://www.treinaweb.com.br/" target="_blank">Treinaweb</a>. Over these years, I have been creating sketches, wireframes, mockups and improving usability issues through techniques such as heatmapping and eyetracking. Also responsible for implementing visual and interactive elements as Front-end developer.'
+			description: 'Working on a responsive web redesign for <a class="link" href="https://www.treinaweb.com.br/" target="_blank">Treinaweb</a>. Over these years, I have been creating sketches, wireframes, mockups and improving usability issues through techniques such as heatmapping. Also responsible for implementing visual and interactive elements as Front-end developer.'
 		},
 		{
 			title: 'UX Designer',
