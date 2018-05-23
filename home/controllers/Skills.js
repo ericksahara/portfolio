@@ -24,12 +24,7 @@
 		levelBar: 40,
 		category: 'discovery'
 	},
-	{
-		title: 'Google Analytics',
-		level: 'Intermediate',
-		levelBar: 50,
-		category: 'discovery'
-	},
+
 	{
 		title: 'Competitor Research',
 		level: 'Intermediate',
@@ -94,7 +89,7 @@
 	{
 		title: 'Wireframes, prototypes and mockups',
 		level: 'Advanced',
-		levelBar: 84,
+		levelBar: 90,
 		category: 'design'
 	},
 	{
@@ -116,22 +111,22 @@
 		category: 'design'
 	},
 	{
-		title: 'Sitemaps',
+		title: 'Sitemaps and User flows',
 		level: 'Advanced',
 		levelBar: 85,
 		category: 'design'
 	},
 	{
-		title: 'Fireworks',
-		level: 'Advanced',
-		levelBar: 80,
+		title: 'Sketch',
+		level: 'Intermediate',
+		levelBar: 65,
 		category: 'design'
 	},
 
 	{
 		title: 'Axure Pro',
-		level: 'Intermediate',
-		levelBar: 75,
+		level: 'Advanced',
+		levelBar: 92,
 		category: 'design'
 	},
 	{
@@ -155,7 +150,7 @@
 	{
 		title: 'Heuristic Evaluation',
 		level: 'Intermediate',
-		levelBar: 60,
+		levelBar: 70,
 		category: 'test'
 	},
 	{
@@ -165,9 +160,9 @@
 		category: 'test'
 	},
 	{
-		title: 'Google Analytics',
+		title: 'Analytics',
 		level: 'Intermediate',
-		levelBar: 60,
+		levelBar: 70,
 		category: 'test'
 	}
 	]

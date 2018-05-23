@@ -7,16 +7,22 @@
 
 	var experiences = [
 		{
-			title: 'Front-end developer & UX Designer',
-			subtitle: 'Treinaweb',
-			period: '2013 - present',
-			description: 'Working on a responsive web redesign for <a class="link" href="https://www.treinaweb.com.br/" target="_blank">Treinaweb</a>. Over these years, I have been creating sketches, wireframes, mockups and improving usability issues through techniques such as heatmapping. Also responsible for implementing visual and interactive elements as Front-end developer.'
+			title: 'UX Designer',
+			subtitle: 'Freelance',
+			period: '2016 - present',
+			description: 'Stakeholder interview, personas, sitemap and user flows, wireframes, mockups and web development. Clients include Kei - Espaço de Arte and Comeb Digital. <a class="link hide-for-print" href="https://www.behance.net/ericksahara" target="_blank">See the projects.</a>'
 		},
 		{
 			title: 'UX Designer',
-			subtitle: 'Kei - Espaço de Arte',
-			period: '2016',
-			description: 'Stakeholder interview, Personas, sitemap, wireframes, mockups and web development. <a class="link hide-for-print" href="http://keiarte.com.br/" target="_blank">See the project.</a>'
+			subtitle: 'Pagar.me',
+			period: '2017 - 2018',
+			description: 'I participated in user research identifying opportunities that match the user´s needs with business requirements in order to validate a specific hypothesis. Also created user flows and low fidelity prototypes using Axure and helped UI Designers improve the visual design of Pagar.me products.'
+		},
+		{
+			title: 'Front-end developer & UX/UI Designer',
+			subtitle: 'Treinaweb',
+			period: '2013 - 2017',
+			description: 'Worked on a responsive web redesign for <a class="link" href="https://www.treinaweb.com.br/" target="_blank">Treinaweb</a>. Over these years, I created sketches, wireframes, mockups and improved usability issues through techniques such as heatmapping. Also responsible for implementing visual and interactive elements as Front-end developer.'
 		},
 
 		{

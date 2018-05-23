@@ -31,7 +31,7 @@ $mail->IsSendmail();
 if (!$mail->Send()) {
 	echo '<div class="response-contact response-contact-error">There was an error sending your message, please try again.</div>';
 } else {
-	echo '<div class="response-contact response-contact-success">Thank you, Your message has been sent successfully!</div>';
+	echo '<div class="response-contact response-contact-success">Thank you, Your message was sent successfully!</div>';
 }
 
 ?>
