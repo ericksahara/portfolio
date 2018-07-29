@@ -567,6 +567,21 @@ return e}}}else return d(a)}}]}])})(window,window.angular);
 			description: 'Aspects such as usability, information architecture, interaction design, accessibility, human factors, content strategy and user research.'
 		},
 		{
+			title: 'Advanced Google Analytics',
+			subtitle: 'Google Analytics Academy',
+			description: 'Configurations like Custom Dimensions, Custom Metrics, and Event Tracking to collect data that\'s specific to the business'
+		},
+		{
+			title: 'User Research – Methods and Best Practices',
+			subtitle: 'Interaction Design Foundation',
+			description: 'How to carry out the most essential qualitative user research methods and best practices <a class="link hide-for-print" href="https://www.interaction-design.org/erick-sahara/certificate/course/P7hd52LLR?r=erick-sahara" target="_blank">View certificate</a>'
+		},
+		{
+			title: 'Mobile User Experience (UX) Design',
+			subtitle: 'Interaction Design Foundation',
+			description: 'Best practices and how to evaluate a mobile design and avoid bad mobile user experiences <a class="link hide-for-print" href="https://www.interaction-design.org/erick-sahara/certificate/course/MVRKl8nQ3?r=erick-sahara" target="_blank">View certificate</a>'
+		},
+		{
 			title: 'Human-Computer Interaction',
 			subtitle: 'Interaction Design Foundation',
 			description: 'Deep understanding of the human behind the term "user" and the ingredients of a great user experience. <a class="link hide-for-print" href="https://www.interaction-design.org/erick-sahara/certificate/course/MHHsTJGrs" target="_blank">View certificate</a>'
